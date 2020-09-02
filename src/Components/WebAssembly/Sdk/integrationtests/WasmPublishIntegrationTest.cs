@@ -664,7 +664,7 @@ namespace Microsoft.AspNetCore.Razor.Design.IntegrationTests
 
             // Verify scoped css
             Assert.FileExists(result, blazorPublishDirectory, "blazorwasm.styles.css");
-
+            
             // Verify static assets are in the publish directory
             Assert.FileExists(result, blazorPublishDirectory, "index.html");
 
